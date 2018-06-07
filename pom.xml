@@ -89,19 +89,6 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <mainClass>registry.cerbtk.BlockchainKt</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>2.6</version>
                 <executions>
@@ -112,7 +99,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>registry.cerbtk.BlockchainKt</mainClass>
+                                    <mainClass>registry.cerbtk.DeviceRegKt</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
