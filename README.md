@@ -1,4 +1,5 @@
 # cerbtk - simple device registry
+[![CircleCI](https://circleci.com/gh/infinimesh/cerbtk.svg?style=svg)](https://circleci.com/gh/infinimesh/cerbtk)
 Just to see how a blockchain approach could solve some fundamental issues. Supposed as PoC, most work was done by Adrian (see credits).
 
 ## API
